@@ -12,9 +12,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 18px;
+  margin-left: -13px;
   padding: 25px 25px;
-  gap: 20px;
+  gap: 30px;
+  border-radius: 5px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
   margin-top: 40px; /* This pushes the card to the bottom */
 }
@@ -29,6 +30,7 @@ body {
   justify-content: center;
   overflow: hidden;
   margin-left: -10px;
+  border-radius: 5px;
   transition-duration: .3s;
 }
 
